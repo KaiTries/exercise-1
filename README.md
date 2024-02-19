@@ -61,7 +61,7 @@ In Visual Studio Code, click the Gradle Side Bar elephant icon, and navigate thr
 ```
 - Windows: Use the command `gradlew.bat` to run one of the Gradle tasks, e.g.:
 ```shell
-gradlew.bat task_1_4
+gradle.bat task_1_4
 ```
 
 ## Gold Miners Tutorial
