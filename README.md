@@ -9,6 +9,7 @@ This tutorial is a simplified version of the [Gold Miners Tutorial](https://jaca
 The tutorial project is developed with [JaCaMo](https://jacamo-lang.github.io/), a platform for programming multi-agent systems, and uses [Gradle](https://gradle.org/). We recommend you to use [Visual Studio Code](https://code.visualstudio.com/) with the following extensions:
 - For JaCaMo syntax highlighting: [JaCaMo4Code](https://marketplace.visualstudio.com/items?itemName=tabajara-krausburg.jacamo4code)
 - For Gradle view: [Gradle for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-gradle)
+- For Java-Gradle support: [Extension Pack for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
 
 Optional reading material for a brief introduction to agent-oriented programming: [<u>Chapter 4.1</u> of Boissier, O., Bordini, R. H., Hubner, J., & Ricci, A. (2020). Multi-agent oriented programming: programming multi-agent systems using JaCaMo. Mit Press.](https://mitpress.mit.edu/books/multi-agent-oriented-programming)
 
