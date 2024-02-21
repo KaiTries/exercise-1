@@ -65,7 +65,9 @@ depot(0,0). // the agent believes that the depot is located at (0,0)
 // You can add your solution here
 @gold_perceived_plan
 +gold(X,Y) : ready_to_explore & not carrying_gold <-
-   .print("Gold perceived at: " ,X,",",Y)
+   .print("Gold perceived at: " ,X,",",Y);
+   -ready_to_explore;
+   !init_handle(gold(X,Y)).
 /********* END OF YOUR IMPLEMENTATION FOR TASK 3 *********/
 
 /* 
@@ -108,7 +110,12 @@ depot(0,0). // the agent believes that the depot is located at (0,0)
    .print("Handling ", gold(X,Y), "now");
    /********* START OF YOUR IMPLEMENTATION FOR TASK 4 *********/
    // You can add your solution here
-   
+   !move_to(X,Y);
+   pick;
+   !confirm_pick;
+   !move_to(DepotX,DepotY);
+   !confirm_depot;
+   drop;
    /********* END OF YOUR IMPLEMENTATION FOR TASK 4 *********/
    .print("Finish handling ",gold(X,Y));
    !!choose_gold. // creates goal !choose_gold
